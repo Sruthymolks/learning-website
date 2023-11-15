@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LearnHub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="menu" class="fa-solid fa-bars"></div>
+      <a href="#" class="logo"
+        ><i class="fa-solid fa-graduation-cap"></i>LearnHub</a
+      >
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#course">Course</a></li>
+          <li><a href="#faculty">Faculty</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="login" class="fa-solid fa-user-tie"></div>
+    </header>
+    <div class="login-form">
+      <form id="loginhide">
+        <h3>Login</h3>
+        <input type="email" placeholder="Email" class="box" />
+        <input type="password" placeholder="Password" class="box" />
+        <p>Forgot Password?<a href="#">Click Here</a></p>
+        <p>
+          Don't have an account?<a id="registerNowLink" href="#"
+            >Register Now</a
+          >
+        </p>
+        <input type="submit" class="btn" value="login" />
+        <i class="fa-solid fa-xmark"></i>
+      </form>
+      <form id="registerForm" style="display: none">
+        <h3>Register</h3>
+        <input type="text" placeholder="First Name" class="box" />
+        <input type="text" placeholder="Last Name" class="box" />
+        <input type="email" placeholder="Email" class="box" />
+        <input type="password" placeholder="Password" class="box" />
+        <input type="submit" class="btn" value="Register" />
+        <i class="fa-solid fa-xmark"></i>
+      </form>
+    </div>
+    <section class="home" id="home">
+      <div class="desc">
+        <h1>LearnHub</h1>
+        <p>
+          Welcome to LearnHub, your gateway to a world of knowledge and personal
+          growth! At LearnHub, we are dedicated to harnessing the transformative
+          power of education. Our e-learning platform offers a diverse array of
+          courses tailored to meet the ever-evolving needs of learners
+          worldwide. Whether you're a student aiming to elevate your academic
+          prowess, a professional eager to upskill, or an enthusiast pursuing a
+          new passion, LearnHub provides a dynamic and immersive learning
+          environment. Explore our extensive catalog of courses, led by
+          experienced instructors, and embark on a rewarding journey of
+          discovery. Join our vibrant community of learners today and unlock the
+          doors to a brighter, more knowledgeable future. LearnHub – where
+          education meets innovation.
+        </p>
+      </div>
+      <a href="#"><button class="btn">Get Started</button></a>
+    </section>
+    <section class="about" id="about">
+      <div class="image">
+        <img src="./assets/about.svg" alt="About Image" />
+      </div>
+      <div class="content">
+        <h3>Why Choose Us</h3>
+        <p>
+          At LearnHub, our vision is to revolutionize education by providing a
+          dynamic and accessible platform for learners worldwide. We firmly
+          believe in the transformative power of knowledge to shape lives and
+          open doors to new opportunities. With a steadfast commitment to
+          innovation and excellence, we aspire to create an environment where
+          individuals can embark on a learning journey customized to their
+          unique aspirations.
+        </p>
+        <p>
+          Our platform caters to students, professionals, and enthusiasts alike,
+          fostering a culture of continuous growth and skill development. By
+          seamlessly integrating cutting-edge technology with a passion for
+          education, we strive to make learning engaging, interactive, and
+          relevant to the evolving needs of the modern learner.
+        </p>
+        <a href="#"><button class="btn">Learn More</button></a>
+      </div>
+    </section>
+    <section id="course" class="course">
+      <h1 class="heading">Our Popular Courses</h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="./assets/course1.jpg" alt="Course 1" />
+          <h3 class="price">$100</h3>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <a href="#" class="title">Web Development</a>
+            <p>
+              Web development is the art and science of creating dynamic and
+              interactive websites.Web developers use a variety of programming
+              languages, frameworks, and tools to build the structure, design,
+              and functionality of a site. This multidisciplinary field involves
+              front-end development, focusing on the user interface and
+              experience, and back-end development, which deals with server-side
+              scripting and databases.
+            </p>
+            <div class="info">
+              <h3><i class="fa-solid fa-clock"></i>5 Hours</h3>
+              <h3><i class="fa-solid fa-calendar-days"> </i>9 Months</h3>
+              <h3><i class="fa-solid fa-book"></i>30 Modules</h3>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./assets/course3.jpg" alt="Course 3" />
+          <h3 class="price">$50</h3>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <a href="#" class="title">React Tutorial</a>
+            <p>
+              React, developed by Facebook, is a JavaScript library for building
+              user interfaces, particularly for single-page applications where
+              smooth, efficient updates are crucial. It allows developers to
+              create reusable UI components, making the development process more
+              modular and efficient.Key features of React include a virtual DOM
+              (Document Object Model) that enhances performance by minimizing
+              direct manipulation of the actual DOM.
+            </p>
+            <div class="info">
+              <h3><i class="fa-solid fa-clock"></i>2 Hours</h3>
+              <h3><i class="fa-solid fa-calendar-days"> </i>5 Months</h3>
+              <h3><i class="fa-solid fa-book"></i>10 Modules</h3>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./assets/course2.jpg" alt="Course 2" />
+          <h3 class="price">$75</h3>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <a href="#" class="title">App Development</a>
+            <p>
+              App development is the process of creating software applications
+              that run on mobile devices, such as smartphones and tablets. It
+              involves a series of steps, from conceptualization to design,
+              coding, testing, and deployment. App developers use programming
+              languages like Java, Swift, or Kotlin, depending on the platform
+              (Android or iOS).Rigorous testing ensures the app functions
+              seamlessly and is free of bugs.
+            </p>
+            <div class="info">
+              <h3><i class="fa-solid fa-clock"></i>4 Hours</h3>
+              <h3><i class="fa-solid fa-calendar-days"> </i>8 Months</h3>
+              <h3><i class="fa-solid fa-book"></i>15 Modules</h3>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./assets/course4.jpg" alt="Course 4" />
+          <h3 class="price">$80</h3>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <a href="#" class="title">Data Analysis</a>
+            <p>
+              Data analysis involves inspecting, cleansing, transforming, and
+              modeling data to discover meaningful information, draw
+              conclusions, and support decision-making. In the realm of data
+              analysis, several tools and techniques are employed to derive
+              insights from large and complex datasets.Data analysis often
+              involves statistical methods to identify trends, correlations, and
+              patterns within the data.
+            </p>
+            <div class="info">
+              <h3><i class="fa-solid fa-clock"></i>3 Hours</h3>
+              <h3><i class="fa-solid fa-calendar-days"> </i>3 Months</h3>
+              <h3><i class="fa-solid fa-book"></i>10 Modules</h3>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./assets/course5.webp" alt="Course 5" />
+          <h3 class="price">$60</h3>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <a href="#" class="title">Software Testing</a>
+            <p>
+              Software testing is a critical phase in the software development
+              life cycle that ensures the quality, reliability, and
+              functionality of a software product. It involves systematically
+              evaluating a system or application to identify defects, ensuring
+              it meets specified requirements and works as intended. The testing
+              process comprises various levels and types, each serving a
+              specific purpose in the verification and validation of software.
+            </p>
+            <div class="info">
+              <h3><i class="fa-solid fa-clock"></i>6 Hours</h3>
+              <h3><i class="fa-solid fa-calendar-days"> </i>9 Months</h3>
+              <h3><i class="fa-solid fa-book"></i>30 Modules</h3>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./assets/course6.png" alt="Course 6" />
+          <h3 class="price">$75</h3>
+          <div class="content">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="title">Angular Tutorial</a>
+            <p>
+              Angular is a powerful and widely-used open-source framework for
+              building dynamic web applications. Developed and maintained by
+              Google, Angular provides a comprehensive set of tools and
+              libraries for front-end development.Overall, Angular provides a
+              robust framework for building modern, scalable, and maintainable
+              web applications. Here's an overview of key features and concepts
+              associated with Angular
+            </p>
+            <div class="info">
+              <h3><i class="fa-solid fa-clock"></i>3 Hours</h3>
+              <h3><i class="fa-solid fa-calendar-days"> </i>8 Months</h3>
+              <h3><i class="fa-solid fa-book"></i>25 Modules</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="faculty" id="faculty">
+      <div class="facdiv">
+        <h1 class="heading">Our Expert Faculties</h1>
+        <p>
+          At LearnHub, our distinguished team of educators is a dynamic blend of
+          seasoned professionals who are deeply passionate about guiding
+          learners on their educational odyssey. Each faculty member brings a
+          treasure trove of expertise and hands-on experience in their
+          respective domains, cultivating an atmosphere of academic brilliance
+          and groundbreaking innovation. Whether delving into the realms of
+          technology, business, or the arts, our faculties are steadfast in
+          delivering top-tier education, instilling a culture of critical
+          thinking, and nurturing the essential skills for triumph. Through
+          captivating lectures, personalized mentorship, and an unwavering
+          commitment to student-centric learning, our faculties play a central
+          role in sculpting the learning expedition, propelling students toward
+          the realization of their academic and professional aspirations. Enrich
+          your educational journey with us, and be mentored by a diverse and
+          accomplished faculty devoted to your continual growth and triumph.
+        </p>
+        <a href="#"><button class="btn">Learn More</button></a>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h1 class="heading">Contact Us</h1>
+      <div class="row">
+        <form>
+          <input type="text" placeholder="Full Name" class="box" />
+          <input type="email" placeholder="Your Email" class="box" />
+          <input type="password" placeholder="Your Password" class="box" />
+          <input type="number" placeholder="Your Number" class="box" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            class="box address"
+            placeholder="Your Address"
+          ></textarea>
+          <input type="submit" class="btn" value="Send Now" />
+        </form>
+        <div class="image">
+          <img src="./assets/contact.png" alt="Contact" />
+        </div>
+      </div>
+    </section>
+    <section class="foot">
+      <div class="footer">
+        <div class="box-container">
+          <div class="box">
+            <h3>Branch Locations</h3>
+            <a href="#">India</a>
+            <a href="#">USA</a>
+            <a href="#">Europe</a>
+            <a href="#">Latin America</a>
+          </div>
+          <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#course">Course</a>
+            <a href="#faculty">Faculty</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="box">
+            <h3>Contact Info</h3>
+            <p>
+              <i class="fa-solid fa-location-dot"></i>Trivandrum,Kerala,India
+              695007
+            </p>
+            <p><i class="fa-solid fa-envelope"></i>learnhub@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+91 9090456710</p>
+          </div>
+        </div>
+        <h1 class="credit">
+          <a href="#">LearnHub</a> &#169; All Rights Reserved
+        </h1>
+      </div>
+    </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
